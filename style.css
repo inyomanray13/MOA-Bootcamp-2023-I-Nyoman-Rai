@@ -1,0 +1,456 @@
+body {
+    background-size: cover;
+    width: 98.8%;
+    color: black;
+    font-size: medium;
+    filter: blur(0px);
+    background: linear-gradient(
+        to left,
+        rgb(11, 93, 245),
+        rgb(96, 145, 238),
+        rgb(125, 113, 241),
+        rgb(62, 4, 100)
+    );
+  }
+  
+  .Container {
+    background-image: url("musamus.jpg");
+    filter: blur(0px);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 100;
+    width: 101.1%;
+    height: 90px;
+    background: linear-gradient(
+        to left,
+        rgb(11, 93, 245),
+        rgb(96, 145, 238),
+        rgb(125, 113, 241),
+        rgb(62, 4, 100)
+    );
+  }
+  
+  .brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6em;
+    padding: 15px;
+    text-transform: capitalize;
+    list-style-type: none;
+  }
+
+  .brand > li > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: -10%;
+    list-style: none;
+  }
+  
+  .brand > li > img:hover {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+
+  .navigation2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation2 > li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  
+  .navigation2 > li > a {
+    color: White;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .navigation2 > li > a:hover {
+    color: rgb(62, 4, 100);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .firstname {
+    color: white;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+  
+  .support {
+    color: white;
+    font-weight: 400;
+    padding-left: 4px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation > li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  
+  .navigation > li > a {
+    color: White;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .navigation > li > a:hover {
+    color: rgb(62, 4, 100);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .active {
+    background-color: rgba(245, 152, 12, 0.925);
+    border-radius: 35%;
+    color: white;
+    padding: 10px;
+  }
+  
+  .images {
+    display: flex;
+    width: 70%;
+    transition: 2s;
+  }
+  
+  .content {
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .images > img {
+    width: 70%;
+  }
+  #slide-1:target ~ .images {
+    margin-left: 16px;
+  }
+  #slide-2:target ~ .images {
+    margin-left: -98%;
+  }
+  .sensation > a {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.249);
+    font-size: 0px;
+    border-radius: 50%;
+  }
+  
+  .sensation > a:hover {
+    background-color: rgba(255, 191, 0, 0.354);
+  }
+  .sensation {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -50px;
+  }
+  
+  .Container1 {
+    background-size: contain;
+    margin-left: -10px;
+    width: 100%;
+    filter: blur(0px);
+  }
+  
+  .wrapper1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -10px;
+    font-size: 20px;
+    width: 102.7%;
+    height: 600px;
+    background-color: #210933;
+    box-shadow: 0 4px 10px 0 rgb(159, 73, 240);
+  }
+  
+  .brand1 {
+    color: #857885;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    padding: 50px;
+    margin-right: -5%;
+    text-transform: capitalize;
+    list-style-type: none;
+  }
+
+  .brand1 > li > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin-left: -350%;
+    margin-bottom: -200%;
+  }
+
+  .brand1 > h6 > p1 > li > img {
+    color: #857885;
+    background-color: #857885;
+  }
+  
+  .brand1 > h6 > p1 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  }
+
+  .brand1 > h6 > p {
+    color: #857885;
+  }
+
+  .firstname1 {
+    color: white;
+    font-weight: 400;
+    margin-left: -100px;
+    text-transform: lowercase;
+  }
+  .navigation1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation1 > li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  
+  .navigation1 > li > a {
+    color: #857885;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .navigation1 > li > a:hover {
+    color: rgb(159, 73, 240);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navigation1 > li > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .navigation1 > li > img:hover {
+    width: 63px;
+    height: 63px;
+    border-radius: 63px;
+  }
+  
+  .active1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  h6 {
+    color: white;
+    margin-left: -100px;
+    font-size: 15px;
+  }
+  
+  .layanan {
+    text-align: center;
+  }
+  
+  .service1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 3%;
+  }
+  
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 130px;
+    margin: auto;
+    height: 130px;
+    color: #fff;
+    background-color: rgb(159, 73, 240);
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+  
+  .video {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .musamus1 > li > img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+  }
+  
+  .musamus1 > li {
+    list-style-type: none;
+  }
+  .placeholder {
+    opacity: 5px;
+    opacity: 2px;
+  }
+  
+  .musamus2 {
+    display: flex;
+    margin-right: -10%;
+    
+  }
+  
+  .musamus2 > li > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .musamus2 > li {
+    list-style-type: none;
+  }
+  
+  .musamus3 > li > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+  }
+  
+  .musamus3 > li {
+    list-style-type: none;
+  }
+
+  .lay1 {
+    z-index: 1;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    padding-bottom: -5%;
+  }
+  .lay-1{
+    z-index: -1;
+    color: white;
+    padding: 15px;
+  }
+
+  .foot1 {
+    list-style-type: none;
+  }
+
+  .foot1 > li > a {
+    font-size: medium;
+    color: #857885;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot1 > li > a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .foot1 > li > a2 {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot1 > li > a2:hover {
+    color: #857885;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+
+
+  .foot2 {
+    list-style-type: none;
+  }
+
+  .foot2 > li > a {
+    font-size: medium;
+    color: #857885;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot2 > li > a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .foot2 > li > a2 {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot2 > li > a2:hover {
+    color: #857885;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+
+  .foot3 {
+    list-style-type: none;
+  }
+
+  .foot3 > li > a {
+    font-size: medium;
+    color: #857885;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot3 > li > a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .foot3 > li > a2 {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .foot3 > li > a2:hover {
+    color: #857885;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    padding: 15px;
+  }
